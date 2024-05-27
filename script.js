@@ -1,7 +1,7 @@
+// ---- CAROUSEL ----
+
 const btns = document.querySelectorAll(".btn");
 const slides = document.querySelectorAll(".slide");
-
-// Tableau d'images [0. 1. 2. 3]
 
 btns.forEach((btn) => {
   btn.addEventListener("click", (e) => {
