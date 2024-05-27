@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <div class="userContainer">
+      <div class="profilePic">
+        <img src="./img/black screen.png" alt="profile picture">
+      </div>
+      <div class="profileInfos">
+        <h1>Theo Main</h1>
+        <p>Reached goals: 5</p>
+      </div>
+    </div>
+    <div class="hideMenuContainer">
+      <img src="./img/icons/menu.svg" alt="menu icon">
+    </div>
+  </header>
+
+  <main>
+    <section id="generalMenu">
+      <div class="generalContainer">
+        <article class="category">
+          <img src="./img/icons/dumbell-fitness-svgrepo-com.svg" alt="dumbell icon">
+          <h2>My Exercices</h2>
+        </article>
+        <article class="category">
+          <img src="./img/icons/buddhist-yoga-pose-svgrepo-com.svg" alt="yoga icon">
+          <h2>Stretching</h2>
+        </article>
+        <article class="category">
+          <img src="./img/icons/healthy-food-svgrepo-com.svg" alt="dumbell icon">
+          <h2>Food</h2>
+        </article>
+        <article class="category">
+          <img src="./img/icons/sports-trophy-cup-svgrepo-com.svg" alt="dumbell icon">
+          <h2>Award</h2>
+        </article>
+      </div>
+    </section>
+
+    <section id="carouselSection">
+      <div class="carousel">
+        <button class="btn" id="prev">&#10096;</button>
+        <button class="btn" id="next">&#10097;</button>
+        <ul>
+          <li class="slide active">
+            <div class="last"></div>
+            <div class="second"></div>      
+            <figure class="infront">
+              <img src="./img/exo1.webp" alt="img1">
+              <h3>Dumbell exercices</h3>
+            </figure>
+          </li>
+          <li class="slide">
+            <div class="last"></div>
+            <div class="second"></div>      
+            
+            <img src="./img/exo2.webp" alt="img2">
+            <h3>Weightlifting</h3>
+          </li>
+          <li class="slide">
+            <div class="last"></div>
+            <div class="second"></div>      
+            <figure class="infront"></figure>
+
+            <img src="./img/exo3.webp" alt="img3">
+            <h3>Gym exercices</h3>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <ul>
+          <li>
+            <img src="./img/icons/home.svg" alt="home page icon">
+            <p>Home page</p>
+          </li>
+          <li>
+            <img src="./img/icons/user-round-plus.svg" alt="add friends logo">
+            <p>Friends</p>
+          </li>
+          <li class="actived">
+            <img src="./img/icons/circle-user-round.svg" alt="user profile">
+            <p>Profile</p>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </main>
+  
+  <script src="./script.js"></script>
+</body>
+</html>
